@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: lightskyblue;
+    width: 90%;
+    margin: auto;
+    border-radius: 25px;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+header{
+    background-color: rgb(0, 191, 255);
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+header h1{
+    font-size: 40px;
+}
+
+header h2{
+    font-size: 30px;
+}
+
+header h3{
+    font-size: 20px;
+}
+
+.hoje{
+    background-color: rgb(162, 216, 250);
+    margin: 80px 120px;
+    width: 80%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(56, 56, 56);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hoje p{
+    padding: 10px 0px;
+    font-size: 22px;
+}
+
+.data{
+    font-weight: bold;
+}
+
+.dias{
+    background-color: rgb(0, 110, 179);
+    width: 40%;
+    padding: 40px;
+    font-size: 18px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(56, 56, 56);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px;
+}
+
+.cep{
+    background-color: rgb(0, 32, 214);
+    color: whitesmoke;
+    margin: 80px 250px;
+    width: 60%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(56, 56, 56);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    background-color: yellow;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    margin: 15px;
+    padding: 8px;
+    width: 150px;
+}
+
+input{
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+
+}
+
+.cep p{
+    padding: 10px 0px;
+    font-size: 22px;
+}
+
+.dois_dias{
+    display: flex;
+    justify-content: space-around;
+}

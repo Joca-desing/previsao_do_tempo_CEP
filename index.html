@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Previsão do Tempo</h1>
+            <h2>Com CEP</span></h3>
+                <h3>Cidade: <span id="span_city"></span></h3>
+        </header>
+        <!----------------------------------------------------------------------------------------------------------------------------------------------------------------->
+        <div class="cep">
+            <label>CEP:</label>
+            <input type="text" id="txt_cep">
+            <button onclick="buscarCEP()">Pesquisar</button>
+            <p>Cidade: <span id="span_cidade"></span></p>
+            <p>Estado: <span id="span_estado"></span></p>
+            <p>DDD: <span id="span_ddd"></span></p>
+            <p>Logradouro: <span id="span_logradouro"></span></p>
+            <p>Bairro: <span id="span_bairro"></span></p>
+        </div>
+        <!----------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+        <div class="hoje">
+            <p class="data">Data/Hora: <span id="span_data_hora"></span></p>
+            <p>Dia da Semana: <span id="span_semana"></span></p>
+            <p>Condição: <span id="span_description"></span> </p>
+
+            <p>Temperatura: <span id="span_temp"></span>ºC</p>
+            <p>Máxima e Mínima: <span id="span_temp0"></span>ºC</p>
+
+            <p>Umidade: <span id="span_umidade"></span>%</p>
+            <p>Velocidade do Vento: <span id="span_wind"></span></p>
+        </div>
+        <div class="dois_dias">
+            <div class="dias">
+                <p class="data">Data: <span id="span_data1"></span></p>
+                <p>Dia da Semana: <span id="span_semana1"></span></p>
+                <p>Condição: <span id="span_description1"></span> </p>
+
+                <p>Máxima e Mínima: <span id="span_temp1"></span>ºC</p>
+
+                <p>Umidade: <span id="span_umidade1"></span>%</p>
+                <p>Velocidade do Vento: <span id="span_wind1"></span></p>
+            </div>
+            <div class="dias">
+                <p class="data">Data: <span id="span_data2"></span></p>
+                <p>Dia da Semana: <span id="span_semana2"></span></p>
+                <p>Condição: <span id="span_description2"></span> </p>
+
+                <p>Máxima e Mínima: <span id="span_temp2"></span>ºC</p>
+
+                <p>Umidade: <span id="span_umidade2"></span>%</p>
+                <p>Velocidade do Vento: <span id="span_wind2"></span></p>
+            </div>
+        </div>
+        <div class="dois_dias">
+            <div class="dias">
+                <p class="data">Data: <span id="span_data3"></span></p>
+                <p>Dia da Semana: <span id="span_semana3"></span></p>
+                <p>Condição: <span id="span_description3"></span> </p>
+
+                <p>Máxima e Mínima: <span id="span_temp3"></span>ºC</p>
+
+                <p>Umidade: <span id="span_umidade3"></span>%</p>
+                <p>Velocidade do Vento: <span id="span_wind3"></span></p>
+            </div>
+            <div class="dias">
+                <p class="data">Data: <span id="span_data4"></span></p>
+                <p>Dia da Semana: <span id="span_semana4"></span></p>
+                <p>Condição: <span id="span_description4"></span> </p>
+
+                <p>Máxima e Mínima: <span id="span_temp4"></span>ºC</p>
+
+                <p>Umidade: <span id="span_umidade4"></span>%</p>
+                <p>Velocidade do Vento: <span id="span_wind4"></span></p>
+            </div>
+        </div>
+
+
+        <script src="script.js"></script>
+</body>
+
+</html>
